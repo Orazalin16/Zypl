@@ -3,7 +3,7 @@ import cv2
 
 
 
-video_file_3min = "/Users/macbook/Documents/Zypl_short.mp4"
+video_file_3min = "Zypl_short.mp4"
 cap = cv2.VideoCapture(video_file_3min)
 counter =0 
 
