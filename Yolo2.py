@@ -4,13 +4,12 @@ import cv2
 import csv
 import collections
 import numpy as np
-from tracker import *
 import os
 import re
 from PIL import Image
 import shutil
 # Initialize Tracker
-tracker = EuclideanDistTracker()
+
 
 # Initialize the videocapture object
 cap = cv2.VideoCapture('/Users/macbook/Downloads/video2.mp4')
